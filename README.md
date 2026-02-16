@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# React Frontend — Getting Started Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped using **Create React App (CRA)**.
+It provides a pre-configured React environment for fast development, testing, and production builds.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+#  Prerequisites
 
-### `npm start`
+Ensure the following are installed:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Node.js (v14 or later recommended)
+* npm or yarn package manager
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Check installation:
 
-### `npm test`
+```bash
+node -v
+npm -v
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+#  Available Scripts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the project directory, you can run the following commands:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Start Development Server
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Runs the application in **development mode**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Opens automatically at:
+  http://localhost:3000
+* The app reloads automatically when you make changes.
+* Any lint or compile errors appear in the console.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  Run Tests
 
-## Learn More
+```bash
+npm test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Launches the test runner in **interactive watch mode**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use this command to:
 
-### Code Splitting
+* Execute unit tests
+* Continuously monitor changes during development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+More info:
+https://facebook.github.io/create-react-app/docs/running-tests
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##  Build for Production
 
-### Making a Progressive Web App
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Creates an optimized **production build** in the `build/` folder.
 
-### Advanced Configuration
+Key features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Bundles React in production mode
+* Optimizes performance and file size
+* Generates hashed filenames for caching
+* Ready for deployment
 
-### Deployment
+Deployment guide:
+https://facebook.github.io/create-react-app/docs/deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+##  Eject Configuration (Advanced)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run eject
+```
+
+**Important:** This action is **irreversible**.
+
+Ejecting will:
+
+* Remove the single CRA dependency
+* Copy configuration files (Webpack, Babel, ESLint) into your project
+* Provide full control over build configuration
+
+This step is recommended **only for advanced customization**.
+
+---
+
+#  Learn More
+
+* Create React App Documentation
+  https://facebook.github.io/create-react-app/docs/getting-started
+
+* React Documentation
+  https://reactjs.org/
+
+---
+
+#  Advanced Topics
+
+Additional documentation:
+
+| Topic                        | Link                                                                          |
+| ---------------------------- | ----------------------------------------------------------------------------- |
+| Code Splitting               | https://facebook.github.io/create-react-app/docs/code-splitting               |
+| Bundle Size Analysis         | https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size    |
+| Progressive Web App          | https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app |
+| Advanced Configuration       | https://facebook.github.io/create-react-app/docs/advanced-configuration       |
+| Troubleshooting Build Issues | https://facebook.github.io/create-react-app/docs/troubleshooting              |
+
+---
+
+# Summary
+
+This React project provides a fully configured environment for:
+
+* Rapid development
+* Automated testing
+* Optimized production builds
+* Easy deployment
+
+You can begin development immediately using `npm start`.
