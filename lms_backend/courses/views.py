@@ -27,4 +27,4 @@ def enroll_course(request, course_id):
     if enrollment_exists:
         return Response({"message": "Already enrolled in this course."})
     Enrollment.objects.create(user=request.user, course=course)
-    return Response({"message": "Enrollment successful!"})
+    return Response({"message": "Enrollment successful!"}) 
